@@ -1,173 +1,87 @@
 * {
     margin: 0px;
     padding: 0px;
-}
-.container {
+  }
+  .container {
    max-width: 900px;
    Margin: 0 auto;
-}
-.resume_box {
+  }
+  .resume_box {
     max-width: 800px;
     Margin: 0 auto;
     background-color: #ccc;
     padding: 50px 50px;
     border: 8px solid rgb(223, 138, 11);
-}
-.resume_box:hover {
+  }
+  .resume_box:hover {
     border: 8px solid black;
-}
-header {
+  }
+  header {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     text-decoration: underline;
-}
-.first_section {
+  }
+  .first_section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 3px solid black;
-}
-.first_section:hover {
+  }
+  .first_section:hover {
     border: 3px solid rgb(235, 13, 13)
-}
-.name_bar h2 {
-    text-decoration: underline;
+  }
+  .name_bar h2 {
+    text-decoration: underline ;
     margin-bottom: 20px;
-} 
-.name_bar p {
-    line-height: 25px;
-}
-#address {
-   margin-left: 25px;
-}
-#address1 {
-    margin-left: 106px;
-}
-#email {
-    margin-left: 18px;
-}
-#number {
-    margin-left: 3px;
-    font-weight: bold;
-}
-#github {
-    margin-left: 12px;
-}
-.image_box {
-    background-image: url("jay_photos.jpg");
+  } 
+  .name_bar i {
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  .image_box {
+    background-image: url("./image/jay_photos.jpg");
     background-size: cover;
     height: 160px;
     width: 160px;
     border: 3px solid black;
-} 
-.image_box:hover {
+  } 
+  .image_box:hover {
     border: 3px solid yellow;
-}
-.second_section {
+  }
+  .section_box {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.second_section  p {
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.third_section ul {
-    margin-top: 10px;
-}
-.third_section li {
-   line-height: 20px;
-    margin-left: 35px;
-}
-.forth_section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.forth_section ul {
-    margin-top: 10px;
-}
-.forth_section li {
+  }
+  .section_box h3 {
+    margin-bottom: 10px;
+  }
+  .section_box table, p, li{
     line-height: 20px;
     margin-left: 35px;
-}
-.five_section ul {
-    margin-top: 10px;
-}
-.five_section li {
-    line-height: 20px;
-    margin-left: 35px;
-}
-.six_section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.six_section ul {
-    margin-top: 10px;
-}
-.six_section li {
-    line-height: 20px;
-    margin-left: 15px;
-}
-.seven_section ul {
-    margin-top: 10px;
-}
-.seven_section li {
-    line-height: 20px;
-    margin-left: 35px;
-}
-.eight_section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.eight_section ul {
-    margin-top: 10px;
-}
-.eight_section li {
-    line-height: 20px;
-    margin-left: 35px;
-}
-.nine_section ul {
-    margin-top: 10px;
-}
-.nine_section li {
-    line-height: 20px;
-    margin-left: 35px;
-}
-.ten_section {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-.ten_section p {
-    margin-top: 10px;
-    margin-left: 20px;
-    line-height: 20px;
-}
-footer {
+  }
+  footer {
     display: flex;
     justify-content: space-between;
-}
-.date h3 {
+  }
+  .date h3 {
     margin-left: 48px;
     margin-bottom: 8px;
-}
-input {
+  }
+  input {
     margin-left: 15px;
     padding: 3px 4px;
     border: 3px solid black;
     font-weight: bold;
-}
-input:hover {
+  }
+  input:hover {
     background-color: rgb(255, 213, 0);
     border: 3px solid black;
     cursor: pointer;
-}
-
-.name {
+  }
+  
+  .name {
     margin-right: 30px;
-}
-
-
-
-
-
+  }
+  
